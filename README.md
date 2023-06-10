@@ -1565,9 +1565,9 @@ gpu Cmptnroll   elapsed 0.000387 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%     900ns         2     450ns     280ns     620ns  cuDeviceGet
                     0.00%     370ns         1     370ns     370ns     370ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
-
 ```
-![Uploading image.png…]()
+
+
 ## kernel reduceUnrolling16:
 ```
 Password: 
@@ -1639,6 +1639,9 @@ gpu Cmptnroll   elapsed 0.000305 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%     300ns         1     300ns     300ns     300ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
 ```
+
+
+![image](https://github.com/Vivekreddy8360/PCA-Simple-warp-divergence---Implement-Sum-Reduction./assets/94525701/ff8e94b3-829e-4b5b-b79d-ba5731be8fd9)
 
 ## Result:
 Implementation of the kernel reduceUnrolling16 is done and the performance of kernal reduceUnrolling16 is comapared with kernal reduceUnrolling8 using proper metrics and events with nvprof.
