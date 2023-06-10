@@ -1566,7 +1566,9 @@ gpu Cmptnroll   elapsed 0.000387 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%     370ns         1     370ns     370ns     370ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
 ```
+![Uploading 8unroll2.png…]()
 
+![Uploading 8unroll.png…]()
 
 ## kernel reduceUnrolling16:
 ```
@@ -1639,8 +1641,6 @@ gpu Cmptnroll   elapsed 0.000305 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%     300ns         1     300ns     300ns     300ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
 ```
-
-
 ![image](https://github.com/Vivekreddy8360/PCA-Simple-warp-divergence---Implement-Sum-Reduction./assets/94525701/ff8e94b3-829e-4b5b-b79d-ba5731be8fd9)
 
 ## Result:
